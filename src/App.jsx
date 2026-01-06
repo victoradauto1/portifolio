@@ -27,13 +27,15 @@ function App() {
   return (
     <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
       <Header theme={theme} setTheme={setTheme} />
-      <main className="pt-20">
+
+      <main>
         <Hero />
         <About />
         <Projects />
         <Skills />
         <Contact />
       </main>
+
       <Footer />
       <ScrollToTop />
     </div>

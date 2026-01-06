@@ -2,13 +2,18 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center bg-gradient-to-r from-gray-100 via-gray-100 to-gray-200 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800"
+      className="
+        min-h-screen pt-20 flex items-center
+        bg-gradient-to-r
+        from-gray-100 via-gray-100 to-gray-200
+        dark:from-gray-900 dark:via-gray-900 dark:to-gray-800
+      "
     >
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         
         {/* Imagem */}
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent to-gray-100 dark:to-gray-900 rounded-xl" />
+        <div className="relative flex justify-center md:justify-start">
+          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent to-gray-100 dark:to-gray-900" />
           <img
             src="/profile.jpg"
             alt="Victor em Amsterdam"
@@ -17,7 +22,7 @@ const Hero = () => {
         </div>
 
         {/* Texto */}
-        <div>
+        <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
             Olá, eu sou o Victor
           </h1>
