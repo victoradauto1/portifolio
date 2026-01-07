@@ -9,16 +9,17 @@ const Hero = () => {
         dark:from-gray-900 dark:via-gray-900 dark:to-gray-800
       "
     >
-      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-16">
         
-        {/* Imagem */}
-        <div className="relative flex justify-center md:justify-start">
-          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent to-gray-100 dark:to-gray-900" />
-          <img
-            src="/profile.jpg"
-            alt="Victor em Amsterdam"
-            className="relative z-10 w-full max-w-md rounded-xl object-cover"
-          />
+        {/* Imagem circular */}
+        <div className="flex justify-center md:justify-end">
+          <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
+            <img
+              src="/profile.jpg"
+              alt="Victor em Amsterdam"
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
         </div>
 
         {/* Texto */}
