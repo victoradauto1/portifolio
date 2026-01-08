@@ -16,10 +16,12 @@ const Header = () => {
   return (
     <header
       className={`
-        fixed z-50 transition-all duration-300
-        ${scrolled
-          ? "top-4 left-1/2 -translate-x-1/2 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg rounded-full px-6"
-          : "top-0 left-0 w-full bg-transparent"}
+        fixed z-50 transition-all duration-900
+        ${
+          scrolled
+            ? "top-4 left-1/2 -translate-x-1/2 bg-white/40 dark:bg-gray-900/40 backdrop-blur-md shadow-lg rounded-full px-6"
+            : "top-0 left-0 w-full bg-transparent"
+        }
       `}
     >
       <nav
@@ -44,7 +46,7 @@ const Header = () => {
         <ul className="flex items-center gap-6 text-sm font-medium">
           <li>
             <a href="#projects" className="hover:opacity-70 transition">
-              Projetos
+              Projects
             </a>
           </li>
           <li>
@@ -54,7 +56,7 @@ const Header = () => {
           </li>
           <li>
             <a href="#about" className="hover:opacity-70 transition">
-              Sobre
+              About
             </a>
           </li>
           <li>
@@ -62,7 +64,7 @@ const Header = () => {
               href="#contact"
               className="px-3 py-1.5 rounded-full border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-gray-400 transition"
             >
-              Contato
+              Contact
             </a>
           </li>
           <ThemeSwitcher />

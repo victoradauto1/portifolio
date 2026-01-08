@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Sun, Moon } from 'lucide-react';
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState('light');
@@ -21,8 +22,16 @@ const ThemeSwitcher = () => {
   };
 
   return (
-    <button onClick={toggleTheme} className="text-2xl">
-      {theme === 'light' ? '🌞' : '🌙'}
+    <button
+      onClick={toggleTheme}
+      aria-label="Toggle theme"
+      className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+    >
+      {theme === 'light' ? (
+        <Sun size={20} strokeWidth={1.5} />
+      ) : (
+        <Moon size={20} strokeWidth={1.5} />
+      )}
     </button>
   );
 };

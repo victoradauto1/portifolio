@@ -10,14 +10,24 @@ const Hero = () => {
       "
     >
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-16">
-        
         {/* Imagem circular */}
         <div className="flex justify-center md:justify-end">
-          <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
+          <div
+            className="
+            w-72 h-72 md:w-80 md:h-80
+            rounded-full overflow-hidden
+            ring-2 ring-gray-200 dark:ring-gray-700
+            shadow-lg
+          "
+          >
             <img
               src="/profile.jpg"
-              alt="Victor em Amsterdam"
-              className="w-full h-full object-cover object-center"
+              alt="Victor Silva"
+              className="
+                w-full h-full
+                object-cover
+                object-[40%_50%]
+              "
             />
           </div>
         </div>
@@ -32,7 +42,6 @@ const Hero = () => {
             Desenvolvedor Web3 & Full-Stack
           </p>
         </div>
-
       </div>
     </section>
   );
