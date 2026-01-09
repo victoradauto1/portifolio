@@ -31,7 +31,10 @@ const Header = () => {
         `}
       >
         {/* Brand */}
-        <div className="flex flex-col leading-tight">
+        <a
+          href="#hero"
+          className="flex flex-col leading-tight cursor-pointer hover:opacity-80 transition"
+        >
           <span className="text-sm font-semibold text-gray-900 dark:text-gray-100">
             Victor Silva
           </span>
@@ -40,7 +43,7 @@ const Header = () => {
               Web3 · Solidity · DeFi
             </span>
           )}
-        </div>
+        </a>
 
         {/* Links */}
         <ul className="flex items-center gap-6 text-sm font-medium">

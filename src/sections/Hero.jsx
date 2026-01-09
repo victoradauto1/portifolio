@@ -10,15 +10,15 @@ const Hero = () => {
       "
     >
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-16">
-        {/* Imagem circular */}
+        {/* Circular image */}
         <div className="flex justify-center md:justify-end">
           <div
             className="
-            w-72 h-72 md:w-80 md:h-80
-            rounded-full overflow-hidden
-            ring-2 ring-gray-200 dark:ring-gray-700
-            shadow-lg
-          "
+              w-72 h-72 md:w-80 md:h-80
+              rounded-full overflow-hidden
+              ring-2 ring-gray-200 dark:ring-gray-700
+              shadow-lg
+            "
           >
             <img
               src="/profile.jpg"
@@ -32,14 +32,14 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Texto */}
+        {/* Text */}
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-            Olá, eu sou o Victor
+            Hi, I’m Victor
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300">
-            Desenvolvedor Web3 & Full-Stack
+            Web3 & Full-Stack Developer
           </p>
         </div>
       </div>
