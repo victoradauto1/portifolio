@@ -10,12 +10,21 @@ const Skills = () => {
         Skills
       </h2>
 
-      <div className="max-w-4xl mx-auto space-y-10">
-        {/* Web3 */}
+      <div className="max-w-4xl mx-auto space-y-12">
+        {/* Web3 & Smart Contracts */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">
+          <h3
+            className="
+              inline-block mb-5
+              px-4 py-1.5 rounded-full
+              border border-gray-300 dark:border-gray-700
+              text-sm font-medium
+              text-gray-800 dark:text-gray-200
+            "
+          >
             Web3 & Smart Contracts
           </h3>
+
           <ul className="flex flex-wrap justify-center gap-3">
             {[
               "Solidity",
@@ -30,9 +39,18 @@ const Skills = () => {
 
         {/* Frontend */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">
+          <h3
+            className="
+              inline-block mb-5
+              px-4 py-1.5 rounded-full
+              border border-gray-300 dark:border-gray-700
+              text-sm font-medium
+              text-gray-800 dark:text-gray-200
+            "
+          >
             Frontend
           </h3>
+
           <ul className="flex flex-wrap justify-center gap-3">
             {[
               "JavaScript",
@@ -48,9 +66,18 @@ const Skills = () => {
 
         {/* Backend & Tooling */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">
+          <h3
+            className="
+              inline-block mb-5
+              px-4 py-1.5 rounded-full
+              border border-gray-300 dark:border-gray-700
+              text-sm font-medium
+              text-gray-800 dark:text-gray-200
+            "
+          >
             Backend & Tooling
           </h3>
+
           <ul className="flex flex-wrap justify-center gap-3">
             {[
               "Node.js",
