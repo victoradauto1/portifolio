@@ -4,14 +4,14 @@ const projects = [
   {
     title: "BetChain",
     description:
-      "A Web3 betting platform focused on smart contracts, transparency, and on-chain execution.",
+      "A Web3 betting platform focused on smart contracts, transparency, and fully on-chain execution.",
     image: "/projects/betchain.png",
     url: "https://bet-chain.vercel.app/",
   },
   {
     title: "CryptAid",
     description:
-      "A decentralized donation platform enabling transparent crypto contributions via smart contracts.",
+      "An educational decentralized donation platform adapted from a legacy course project, delivering core smart contract functionality and serving as a foundation for future security and UX improvements.",
     image: "/projects/cryptaid.png",
     url: "https://crypt-aid.vercel.app/",
   },
