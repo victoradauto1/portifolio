@@ -9,11 +9,11 @@ const projects = [
     url: "https://bet-chain.vercel.app/",
   },
   {
-    title: "CryptAid",
+    title: "CryptoAid",
     description:
-      "An educational decentralized donation platform adapted from a legacy course project, delivering core smart contract functionality and serving as a foundation for future security and UX improvements.",
-    image: "/projects/cryptaid.png",
-    url: "https://crypt-aid.vercel.app/",
+      "A decentralized crowdfunding platform designed to bring transparency and trust to fundraising through blockchain-based donations and automated payouts.",
+    image: "/projects/cryptoaid.png",
+    url: "https://crypto-aid.vercel.app/",
   },
 ];
 
